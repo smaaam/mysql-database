@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+	<meta name="viewport" content= "width=device-width, initial-scale=1.0"> 
+    <title>Lisäyslomake</title>
+
+	<style>
+	label {
+		display: inline-block;
+		width: 150px;
+	}
+
+	input[type="submit"] {
+		margin-left: 153px;
+		margin-top: 5px;
+	}
+
+</style>
+</head>
+<body>
+	<div> TODO write content</div>
+	<form action="db_palvelin.php" method="post">
+		<label>Rekisterinumero</label>
+		<input name="rekisterinro" placeholder="Rekisterinumero"><br>
+		<label>Merkki</label>
+		<input name="merkki" placeholder="Merkki"><br>
+		<label>Väri</label>
+		<input name="vari" placeholder="Väri"><br>
+
+		<input type="submit" name="buttonSubmit" value='Tallenna'>
+	</form>
+
+</body>
+</html>
